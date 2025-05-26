@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="">
-                Prince Darfour
-            </a>
+  <header>
+    <nav>
+      <a href="#">
+        PrinceDarfour
+      </a>
 
-            <div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Github</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+      <div class="nav-links">
+        <ul class="navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-     <section class="home" id="home">
-        <div class="home__container container grid">
-          <img src="./assets/images/WhatsApp Image.jpeg" alt="my image"/>
-          <div>
-            <h1>
-              Hi I'm Prince<br />Oppong Darfour a
-              <span>Software Engineer</span> from Ghana
-            </h1>
-            <p>
-              I possess a strong grasp of essential languages and frameworks
-              including
-              <strong
-                ><span>HTML</span>, <span>CSS</span>,
-                <span>JavaScript</span> </strong>
-                My passion lies in refining my expertise and gaining hands-on experience in crafting dynamic and responsive web applications.
-            </p>
-            <a href="#">
-              Explore 
-            </a>
-          </div>
+  <body>
 
-          <div>
-            <span>Follow Me</span>
+    <div class="container">
 
-            <div class="home__social-links">
-              <a
-                href="https://linkedin.com/in/angelokwakye"
-                target="_blank"
-                class="home__social-link"
-              >
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-              <a
-                href="https://x.com/iammdangelo_?s=08/">
-                <!-- <i class="ri-twitter-x-line"></i> -->
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-</body>
+      <div class="content">
+        <h1>Hi I'm Prince Oppong Darfour a <span>Software Engineer</span> from <br> Ghana.</h1>
+        <p>I possess a strong grasp of essential languages and frameworks including <strong> HTML, CSS, and
+            JavaScript</strong>, TypeScript, React.js, Angular, MongoDB, Express.js. My passion lies in refining my
+          expertise and gaining hands-on
+          experience in crafting dynamic and responsive web applications.</p>
+        <button>Explore</button>
+      </div>
+
+      <div class="image">
+        <img src="./assets/images/bgimg.png" alt="PrinceDarfour">
+      </div>
+
+    </div>
+
+    <div class="follow-me">
+      <div class="social-icons">
+        <a href="#"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a>
+        <a href="#"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/khojooppong?s=21"><img src="./assets/images/twitter.png" alt="X/Twitter"></a>
+      </div>
+      <p>Follow Me</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills-grid">
+      <h1>My Skills</h1>
+      <div class="skill">
+        <img src="./assets/images/asset1.png" alt="html icon">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="./assets/images/asset2.png" alt="css icon">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="./assets/images/asset3.png" alt="javascript icon">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill">
+        <img src="./assets/images/asset4.png" alt="tailwind icon">
+        <span>Tailwind</span>
+      </div>
+    </div>
+
+  </body>
+
 </html>
